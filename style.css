@@ -14,13 +14,15 @@ body {
     background-color: lightblue;
     padding: 1%;
     align-items: center;
-    margin-left: -10px;
-    margin-right: -10px;
-    margin-top: -10px;
 }
-
+.header-text{
+    flex:1;
+}
 .stats-container {
     display: flex;
+    align-items: start;
+    cursor: pointer;
+    box-shadow: 0 0 30px lightblue;
 }
 
 .stats-card {
@@ -72,4 +74,35 @@ button {
     padding: 1%;
     margin: 1%;
     border-radius: 7px;
+    cursor: pointer;
+}
+
+details>summary{
+    list-style: none;
+    cursor: pointer;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 10px 20px;
+}
+
+nav {
+    display: flex; 
+    justify-content: center;
+    flex: 2;
+}
+
+.nav-items ul {
+    display: flex; 
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-items ul li {
+    margin: 0 20px;
+    cursor: pointer;
 }
