@@ -31,8 +31,7 @@ GIF created with ScreenToGif
 
 ## Notes
 
-Describe any challenges encountered while building the app.
-Ans: Some of the concept of javascript such as filter and reduce had to be re-learnt. Making navbar on my own definitely made me relearn about flex properties and css.
+Some of the concept of javascript such as filter and reduce had to be re-learnt. Making navbar on my own definitely made me relearn about flex properties and css.
 
 ## License
 
